@@ -29,8 +29,11 @@ nav {
     font-size: 8rem;
     padding-top: 2rem;
     background: $gradient;
-    background-clip: text;
+
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
     display: inline-block;
   }
   h3 {
